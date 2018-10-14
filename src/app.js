@@ -13,10 +13,20 @@ charset(superagent)
 let baseUrl = 'http://300report.jumpw.com/match.html?id='
 let Gid = 110031621
 errLength = []
-list = []
+list = ['http://300report.jumpw.com/match.html?id=110031621',
+'http://300report.jumpw.com/match.html?id=110031622',
+'http://300report.jumpw.com/match.html?id=110031623',
+'http://300report.jumpw.com/match.html?id=110031624',
+'http://300report.jumpw.com/match.html?id=110031626',
+'http://300report.jumpw.com/match.html?id=110031627',
+'http://300report.jumpw.com/match.html?id=110031628',
+'http://300report.jumpw.com/match.html?id=110031629',
+'http://300report.jumpw.com/match.html?id=110031630',
+'http://300report.jumpw.com/match.html?id=110031631',
+'http://300report.jumpw.com/match.html?id=110031632']
 
 app.get('/',function(req,res,next){
-    
+
     (function(url){
         superagent.get(url).charset('utf-8').end((err,sres)=>{
             if(err){
@@ -48,15 +58,15 @@ app.get('/',function(req,res,next){
 
                 let $ = cheerio.load(ssres.text)
                 getData($,(data)=>{
-                    console.log(data.join(','))
+                    console.log(data.length)
                 })
             })
         }
 
-        async.mapLimit(list,5,function(myurl,callback){
+        async.mapLimit(list, 5, function(myurl,callback){
             fetchUrl(myurl,callback)
         },function(err,result){
-            console.log('抓取完毕')
+            console.log('抓取完毕,一共抓取'+list.length+'条数据')
         })
     })
 
@@ -81,21 +91,23 @@ function getKda(str){
 }
 function getData($,callback){
     let dataArr = []
+    let table1 =  $('.datatable tbody tr')
+    let table2 = $('.list_bx .datatable').eq(1).children().children()
     for(let i=1;i<8;i++){
         let isWin = false
         let isWin1 = false
-        let heroname = $('.datatable tbody tr').eq(i).children().eq(1).text()
-        let herokda = $('.datatable tbody tr').eq(i).children().eq(2).text()
-        let winStats = $('.datatable tbody tr').eq(i).children().eq(3).text()
-        let tower_destroy = $('.datatable tbody tr').eq(i).children().eq(4).text()
-        let farm = $('.datatable tbody tr').eq(i).children().eq(5).text()
-        let money = $('.datatable tbody tr').eq(i).children().eq(6).text()
-        let heroname1 = $('.list_bx .datatable').eq(1).children().children().eq(i).children().eq(1).text()
-        let herokda1 = $('.list_bx .datatable').eq(1).children().children().eq(i).children().eq(2).text()
-        let winStats1 = $('.list_bx .datatable').eq(1).children().children().eq(i).children().eq(3).text()
-        let tower_destroy1 = $('.list_bx .datatable').eq(1).children().children().eq(i).children().eq(4).text()
-        let farm1 = $('.list_bx .datatable').eq(1).children().children().eq(i).children().eq(5).text()
-        let money1 = $('.list_bx .datatable').eq(1).children().children().eq(i).children().eq(6).text()
+        let heroname =table1.eq(i).children().eq(1).text()
+        let herokda = table1.eq(i).children().eq(2).text()
+        let winStats = table1.eq(i).children().eq(3).text()
+        let tower_destroy = table1.eq(i).children().eq(4).text()
+        let farm = table1.eq(i).children().eq(5).text()
+        let money = table1.eq(i).children().eq(6).text()
+        let heroname1 = table2.eq(i).children().eq(1).text()
+        let herokda1 = table2.eq(i).children().eq(2).text()
+        let winStats1 = table2.eq(i).children().eq(3).text()
+        let tower_destroy1 = table2.eq(i).children().eq(4).text()
+        let farm1 = table2.eq(i).children().eq(5).text()
+        let money1 = table2.eq(i).children().eq(6).text()
         isWin = winStats === ('胜利' || '首胜') ? true : false
         isWin1 = winStats1 === ('胜利' || '首胜') ? true : false
         let hero = {
