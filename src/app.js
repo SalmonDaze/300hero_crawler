@@ -7,12 +7,13 @@ const eventproxy = require('eventproxy')
 const ep = eventproxy()
 const app = express()
 const fs = require('fs')
+const path = require('path')
 
 let baseUrl = 'http://300report.jumpw.com/match.html?id='
 let Gid = 110031621
-errLength = []
-
-list = []
+let errLength = []
+let list = []
+let count = 1
 
 app.get('/',function(req,res,next){
 
@@ -26,20 +27,24 @@ app.get('/',function(req,res,next){
             num = num + 1
             console.log('现在的并发数是',currencyCount,',正在抓取的是',myurl)
             superagent.get(myurl).end(function(err,ssres){
-                if(err){
-                    callback(err,myurl +' error happened !')
+                let $ = cheerio.load(ssres.text)
+
+                if(err || !checkVaild($,myurl)){
                     errLength.push(myurl)
+                    callback(err,myurl +' error happened !')
                     return next(err)
                 }
+                
 
                 let time = new Date().getTime() - fetchStart
-                console.log('抓取' + myurl + ' 成功 ',',耗时'+time+'毫秒')
+                console.log('抓取成功 ',',耗时'+time+'毫秒')
                 currencyCount--
 
-                let $ = cheerio.load(ssres.text)
                 getData($,(data)=>{
+                    console.log('成功抓取 '+ count + '个网页' )
                     callback(null,data)
-                    console.log(data.length)
+                    writeToFile(data)
+                    count++
             })
         })
     }
@@ -48,25 +53,34 @@ app.get('/',function(req,res,next){
             fetchUrl(myurl,callback)
         },function(err,result){
             console.log('抓取完毕,一共抓取'+list.length+'条数据')
+            console.log('不符合的链接共有'+errLength.length+'条')
         })
     })
 
-    function start(){
-        getURL($)
+    function getURL(){
+        for(let i=0;i<1;i++){
+            list.push(`${baseUrl}${Gid++}`)
+        }
         ep.emit('get_page',`get ${Gid} Successful!`)
     }
-    start()
+
+    getURL()
+
 })
 
     
 
-function getURL($){
-    let matchType = $('.datamsg').html()
-    console.log(matchType)
-
-    for(let i=0;i<5;i++){
-        list.push(`${baseUrl}${Gid++}`)
-    }
+function checkVaild($,url){
+    //检测比赛的模式,若为战场或者比赛人数不满14则跳过
+    let datamsg = $('.datamsg').html()
+    let matchType = datamsg.slice(39 ,datamsg.indexOf(' '))
+    let playerCount = $('.datatable tbody > tr').length - 2
+     if(matchType !== '&#x7ADF;&#x6280;&#x573A;' || playerCount != 14){
+         return false
+     }else{
+        return true
+     }
+     
 }
 
 function getHero(str){
@@ -113,7 +127,7 @@ function getData($,callback){
             tower_destroy : tower_destroy,
             farm : farm,
             money : money,
-            kda: getKda(herokda),
+            kda: JSON.stringify(getKda(herokda)),
         }
         let hero1 = {
             heroname : getHero(heroname1),
@@ -121,7 +135,7 @@ function getData($,callback){
             tower_destroy : tower_destroy1,
             farm : farm1,
             money : money1,
-            kda: getKda(herokda1),
+            kda: JSON.stringify(getKda(herokda1)),
         }
         dataArr.push(hero)
         dataArr.push(hero1)
@@ -129,12 +143,25 @@ function getData($,callback){
     callback(dataArr)
 }
 
-function wFile(data){
-    fs.writeFile('../result/result.txt',data,function(err){
+function writeToFile(hdata){
+    let file = path.join(__dirname,'../result/result.json')
+    fs.readFile(file,(err,data)=>{
         if(err){
-            console.log('写入失败')
+            console.log('文件读取错误')
         }else{
-            console.log('写入成功！')
+            let filecache = JSON.parse(data.toString())
+            console.log(typeof parseInt(hdata[0].farm))
+            for(let x in hdata[0]){
+                for(let i in filecache){
+                    if(filecache[i].heroname == hdata[0].heroname){
+                        hdata[0].isWin ? parseInt(filecache[i].Wins) += 1 : ''
+                        filecache[i].tower_destroy = parseInt(filecache[i].tower_destroy)+ parseInt(hdata[0].tower_destroy)
+                        filecache[i].farm = parseInt(filecache[i].farm)+parseInt(hdata[0].farm)
+                        filecache[i].money = parseInt(filecache[i].money)+parseInt(hdata[0].money)
+                    }
+                }
+            }
+            console.log(filecache)
         }
     })
 }
