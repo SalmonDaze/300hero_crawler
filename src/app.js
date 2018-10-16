@@ -52,7 +52,7 @@ app.get('/',function(req,res,next){
     })
 
     function start(){
-        getURL()
+        getURL($)
         ep.emit('get_page',`get ${Gid} Successful!`)
     }
     start()
@@ -60,8 +60,11 @@ app.get('/',function(req,res,next){
 
     
 
-function getURL(){
-    for(let i=0;i<30;i++){
+function getURL($){
+    let matchType = $('.datamsg').html()
+    console.log(matchType)
+
+    for(let i=0;i<5;i++){
         list.push(`${baseUrl}${Gid++}`)
     }
 }
@@ -85,7 +88,7 @@ function getKda(str){
 }
 function getData($,callback){
     let dataArr = []
-    let table1 =  $('.datatable tbody tr')
+    let table1 =  $('.datatable tbody > tr')
     let table2 = $('.list_bx .datatable').eq(1).children().children()
     for(let i=1;i<8;i++){
         let isWin = false
