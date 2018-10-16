@@ -8,33 +8,13 @@ const ep = eventproxy()
 const app = express()
 const fs = require('fs')
 
-charset(superagent)
-
 let baseUrl = 'http://300report.jumpw.com/match.html?id='
 let Gid = 110031621
 errLength = []
-list = ['http://300report.jumpw.com/match.html?id=110031621',
-'http://300report.jumpw.com/match.html?id=110031622',
-'http://300report.jumpw.com/match.html?id=110031623',
-'http://300report.jumpw.com/match.html?id=110031624',
-'http://300report.jumpw.com/match.html?id=110031626',
-'http://300report.jumpw.com/match.html?id=110031627',
-'http://300report.jumpw.com/match.html?id=110031628',
-'http://300report.jumpw.com/match.html?id=110031629',
-'http://300report.jumpw.com/match.html?id=110031630',
-'http://300report.jumpw.com/match.html?id=110031631',
-'http://300report.jumpw.com/match.html?id=110031632']
+
+list = []
 
 app.get('/',function(req,res,next){
-
-    (function(url){
-        superagent.get(url).charset('utf-8').end((err,sres)=>{
-            if(err){
-                console.log(`抓取${url}时出错！`)
-            }
-            ep.emit('get_page',`get ${Gid} Successful!`)
-        })
-    })(`${baseUrl}${Gid}`)
 
     ep.after('get_page',1,(eps)=>{
         let currencyCount = 0
@@ -45,7 +25,7 @@ app.get('/',function(req,res,next){
             currencyCount++
             num = num + 1
             console.log('现在的并发数是',currencyCount,',正在抓取的是',myurl)
-            superagent.get(myurl).charset('utf-8').end(function(err,ssres){
+            superagent.get(myurl).end(function(err,ssres){
                 if(err){
                     callback(err,myurl +' error happened !')
                     errLength.push(myurl)
@@ -58,10 +38,11 @@ app.get('/',function(req,res,next){
 
                 let $ = cheerio.load(ssres.text)
                 getData($,(data)=>{
+                    callback(null,data)
                     console.log(data.length)
-                })
             })
-        }
+        })
+    }
 
         async.mapLimit(list, 5, function(myurl,callback){
             fetchUrl(myurl,callback)
@@ -70,7 +51,20 @@ app.get('/',function(req,res,next){
         })
     })
 
+    function start(){
+        getURL()
+        ep.emit('get_page',`get ${Gid} Successful!`)
+    }
+    start()
 })
+
+    
+
+function getURL(){
+    for(let i=0;i<30;i++){
+        list.push(`${baseUrl}${Gid++}`)
+    }
+}
 
 function getHero(str){
     let arr = str.split('')
