@@ -9,7 +9,7 @@ const app = express()
 const fs = require('fs')
 const path = require('path')
 
-const three_getData = ( options, rescallback)=>{
+const threeHData = ( options, rescallback)=>{
     app.get('/',function(req,res,next){
         let baseUrl = 'http://300report.jumpw.com/match.html?id='
         let Gid = options.Gid //110031621
@@ -146,4 +146,4 @@ const three_getData = ( options, rescallback)=>{
     app.listen(3000)
 }
 
-module.exports = three_getData
+module.exports = threeHData
