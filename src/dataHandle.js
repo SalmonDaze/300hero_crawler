@@ -1,4 +1,3 @@
-
 /**
  * 
  * @param {string} str 待处理字符串
@@ -21,13 +20,14 @@ function getHero(str) {
 function getKda(str) {
     const arr = str.split("/")
     let [ kill, death, assist ] = arr
-    return obj = {
+    return {
         kill,
         death,
         assist
     }
-    
+
 }
+
 function getData($, callback) {
     let dataArr = []
     let table1 = $(".datatable tbody > tr")
@@ -99,15 +99,23 @@ function getData($, callback) {
             .children()
             .eq(6)
             .text()
-        isWin = winStats === ("胜利" || "首胜") ? true : false
-        isWin1 = winStats1 === ("胜利" || "首胜") ? true : false
+        isWin = winStats.indexOf('胜') > -1 ? true : false
+        isWin1 = winStats1.indexOf('胜') > -1 ? true : false
+        const {
+            kill,
+            death,
+            assist
+        } = getKda(herokda)
+        const kda1 = getKda(herokda1)
         let hero = {
             heroname: getHero(heroname),
             isWin: isWin,
             tower_destroy: tower_destroy,
             farm: farm,
             money: money,
-            kda: getKda(herokda)
+            kill,
+            death,
+            assist
         }
         let hero1 = {
             heroname: getHero(heroname1),
@@ -115,7 +123,9 @@ function getData($, callback) {
             tower_destroy: tower_destroy1,
             farm: farm1,
             money: money1,
-            kda: getKda(herokda1)
+            kill: kda1.kill,
+            death: kda1.death,
+            assist: kda1.assist
         }
         dataArr.push(hero)
         dataArr.push(hero1)
