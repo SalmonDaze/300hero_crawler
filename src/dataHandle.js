@@ -1,3 +1,5 @@
+const flatten = require('array-flatten')
+
 /**
  * 
  * @param {string} str 待处理字符串
@@ -130,7 +132,7 @@ function getData($) {
         dataArr.push(hero)
         dataArr.push(hero1)
     }
-    return dataArr
+    return flatten(dataArr)
 }
 
 module.exports = {

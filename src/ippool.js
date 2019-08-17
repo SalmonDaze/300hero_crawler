@@ -49,7 +49,7 @@ async function proxyTest() {
     let proxyIpList = ip.map(i => `${i.protocol.toLowerCase()}://${i.ip}:${i.port}`)
     console.log(proxyIpList.length)
     //let proxyIpList = await getProxyIp()
-    for(let i = 0 ; i < proxyIpList.length - 400 ; i++ ) {
+    for(let i = 0 ; i < proxyIpList.length - 400  ; i++ ) {
         console.log('测试IP可用进度: ' + Math.floor( i / (proxyIpList.length - 400) * 100) + '%')
         try{
             enableIp.push(await testIp(proxyIpList[i]))
