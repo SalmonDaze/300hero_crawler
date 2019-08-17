@@ -5,58 +5,55 @@ const eventproxy = require("eventproxy")
 const checkVaild = require('./checkVaild').checkVaild
 const getData = require('./dataHandle').getData
 const eventEmitter = require('./eventEmitter')
+const proxyTest = require('./ippool')
+const pLimit = require('p-limit')
+const colors = require('colors')
+const flatten = require('array-flatten')
 require('superagent-charset')(superagent)
-
-const threeHData = (options, rescallback) => {
+require('superagent-proxy')(superagent)
+const threeHData = async (options, cb) => {
+    //let proxyList = await proxyTest()
+    //console.log(proxyList)
+    const limit = pLimit(3)
     let baseUrl = "http://300report.jumpw.com/match.html?id="
     let Gid = options.Gid //110031621
     let errLength = []
     let list = []
     let count = 1
     let allData = []
-    eventEmitter.on("get_page", (eps) => {
+    eventEmitter.on("get_page", () => {
         let currencyCount = 0
         let num = -4
         
-        let fetchUrl = function (myurl, callback) {
+        console.log(list)
+        const taskQueue = list.map( url => {
+            return limit(() => fetchUrl(url))
+        })
+        console.log(taskQueue)
+        async function fetchUrl(myurl) {
+            console.log(`当前并发数为 ${limit.activeCount}`.rainbow)
             let fetchStart = new Date().getTime()
-            currencyCount++
             num = num + 1
-            superagent
-                .get(myurl)
-                .charset('utf-8')
-                .end(function (err, ssres) {
-                    let $ = cheerio.load(ssres.text, {decodeEntities: false})
-                    if (err || !checkVaild($)) {
-                        errLength.push(myurl)
-                        callback(err, myurl + " error happened !")
-                        return
-                    }
-                    let time = new Date().getTime() - fetchStart
-                    console.log("抓取成功 ", ",耗时" + time + "毫秒")
-                    currencyCount -= 1
-                    getData($, (data) => {
-                        console.log("成功抓取 " + count + "个网页")
-                        callback(null, data)
-                        allData = [...allData, ...data]
-                        count++
-                    })
-                })
+            const result = await superagent
+                                    .get(myurl)
+                                    //.proxy(proxyList[ Math.floor(Math.random() * proxyList.length) ])
+                                    .timeout(4000)
+            let $ = cheerio.load(result && result.text, {decodeEntities: false})
+            if (result.status && result.status !== 200 || !checkVaild($)) {
+                errLength.push(myurl)
+                return []
+            }
+            let time = new Date().getTime() - fetchStart
+            console.log("抓取成功 " + count + " 个网页成功,耗时" + time + " 毫秒")
+            count++
+            return getData($)
         }
 
-        async.mapLimit(
-            list,
-            5,
-            function (myurl, callback) {
-                fetchUrl(myurl, callback)
-            },
-            function (err, result) {
-                console.log("抓取完毕,一共抓取" + list.length + "条数据")
-                console.log("不符合的链接共有" + errLength.length + "条")
-                console.log(allData)
-                rescallback(allData)
-            }
-        )
+        (async ()=> {
+            const result = await Promise.all(taskQueue)
+            console.log(`抓取完毕, 成功抓取 ${list.length - errLength.length} 条网页`.green)
+            cb(flatten(result))
+        })()
     })
 
     function getURL() {

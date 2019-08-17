@@ -28,7 +28,7 @@ function getKda(str) {
 
 }
 
-function getData($, callback) {
+function getData($) {
     let dataArr = []
     let table1 = $(".datatable tbody > tr")
     let table2 = $(".list_bx .datatable")
@@ -130,7 +130,7 @@ function getData($, callback) {
         dataArr.push(hero)
         dataArr.push(hero1)
     }
-    callback(dataArr)
+    return dataArr
 }
 
 module.exports = {
