@@ -44,15 +44,16 @@ function testIp( ip ) {
     })
 }
 
-async function proxyTest() {
+async function proxyTest(number) {
     let enableIp = []
     let proxyIpList = ip.map(i => `${i.protocol.toLowerCase()}://${i.ip}:${i.port}`)
-    console.log(proxyIpList.length)
+    var pool = proxyIpList.slice(number, number + 50)
+    console.log(pool.length)
     //let proxyIpList = await getProxyIp()
-    for(let i = 0 ; i < proxyIpList.length - 400  ; i++ ) {
-        console.log('测试IP可用进度: ' + Math.floor( i / (proxyIpList.length - 400) * 100) + '%')
+    for(let i = 0 ; i < pool.length  ; i++ ) {
+        console.log('测试IP可用进度: ' + Math.floor( i / 50 * 100)  + '%' )
         try{
-            enableIp.push(await testIp(proxyIpList[i]))
+            enableIp.push(await testIp(pool[i]))
         } catch(e) {
             //console.log(e)
         }
