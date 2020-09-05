@@ -1,0 +1,2072 @@
+{
+    "梦魇": {
+        "tower_destroy": 608,
+        "farm": 54623,
+        "money": 4486865,
+        "kill": 2588,
+        "death": 1913,
+        "assist": 4253,
+        "winRound": 145,
+        "round": 278
+    },
+    "幻刺·D·露西": {
+        "tower_destroy": 339,
+        "farm": 37071,
+        "money": 4316312,
+        "kill": 2638,
+        "death": 2773,
+        "assist": 2147,
+        "winRound": 134,
+        "round": 286
+    },
+    "绯村剑心": {
+        "tower_destroy": 2128,
+        "farm": 309429,
+        "money": 39118594,
+        "kill": 28544,
+        "death": 24576,
+        "assist": 21543,
+        "winRound": 1295,
+        "round": 2651
+    },
+    "我妻由乃": {
+        "tower_destroy": 178,
+        "farm": 25747,
+        "money": 3841459,
+        "kill": 1904,
+        "death": 2285,
+        "assist": 4371,
+        "winRound": 147,
+        "round": 290
+    },
+    "伊莉雅": {
+        "tower_destroy": 175,
+        "farm": 64892,
+        "money": 8322627,
+        "kill": 5475,
+        "death": 4993,
+        "assist": 5912,
+        "winRound": 289,
+        "round": 627
+    },
+    "缇米": {
+        "tower_destroy": 670,
+        "farm": 275609,
+        "money": 27119102,
+        "kill": 16456,
+        "death": 14387,
+        "assist": 23165,
+        "winRound": 1002,
+        "round": 1824
+    },
+    "灶门炭治郎": {
+        "tower_destroy": 1216,
+        "farm": 278026,
+        "money": 28302796,
+        "kill": 14564,
+        "death": 17130,
+        "assist": 26638,
+        "winRound": 966,
+        "round": 2055
+    },
+    "战场原黑仪": {
+        "tower_destroy": 49,
+        "farm": 22599,
+        "money": 2708378,
+        "kill": 2078,
+        "death": 1871,
+        "assist": 1769,
+        "winRound": 84,
+        "round": 187
+    },
+    "奈亚子": {
+        "tower_destroy": 46,
+        "farm": 18858,
+        "money": 3000431,
+        "kill": 2152,
+        "death": 2044,
+        "assist": 1809,
+        "winRound": 117,
+        "round": 236
+    },
+    "跳跃临时工C": {
+        "tower_destroy": 124,
+        "farm": 22283,
+        "money": 3904757,
+        "kill": 1165,
+        "death": 2409,
+        "assist": 5625,
+        "winRound": 142,
+        "round": 319
+    },
+    "天天": {
+        "tower_destroy": 373,
+        "farm": 40955,
+        "money": 2965247,
+        "kill": 1362,
+        "death": 1543,
+        "assist": 2094,
+        "winRound": 95,
+        "round": 188
+    },
+    "笠笠笠": {
+        "tower_destroy": 565,
+        "farm": 111695,
+        "money": 9779974,
+        "kill": 6422,
+        "death": 5624,
+        "assist": 5617,
+        "winRound": 287,
+        "round": 615
+    },
+    "黑衣剑士": {
+        "tower_destroy": 1863,
+        "farm": 418395,
+        "money": 47280889,
+        "kill": 33270,
+        "death": 27426,
+        "assist": 26323,
+        "winRound": 1501,
+        "round": 3095
+    },
+    "圣大人": {
+        "tower_destroy": 668,
+        "farm": 64725,
+        "money": 5630543,
+        "kill": 3712,
+        "death": 3015,
+        "assist": 3145,
+        "winRound": 183,
+        "round": 343
+    },
+    "独眼之王": {
+        "tower_destroy": 362,
+        "farm": 45287,
+        "money": 5418519,
+        "kill": 2668,
+        "death": 3305,
+        "assist": 4395,
+        "winRound": 185,
+        "round": 404
+    },
+    "乔帮主": {
+        "tower_destroy": 5,
+        "farm": 553,
+        "money": 395048,
+        "kill": 36,
+        "death": 211,
+        "assist": 1006,
+        "winRound": 20,
+        "round": 36
+    },
+    "天使": {
+        "tower_destroy": 245,
+        "farm": 86856,
+        "money": 8806176,
+        "kill": 4757,
+        "death": 4123,
+        "assist": 8481,
+        "winRound": 316,
+        "round": 617
+    },
+    "芙兰朵露": {
+        "tower_destroy": 31,
+        "farm": 12925,
+        "money": 1829092,
+        "kill": 1386,
+        "death": 1182,
+        "assist": 1281,
+        "winRound": 69,
+        "round": 137
+    },
+    "十六夜咲夜": {
+        "tower_destroy": 88,
+        "farm": 32712,
+        "money": 3635393,
+        "kill": 2152,
+        "death": 2313,
+        "assist": 2695,
+        "winRound": 122,
+        "round": 276
+    },
+    "卫宫": {
+        "tower_destroy": 1007,
+        "farm": 162600,
+        "money": 18121033,
+        "kill": 12077,
+        "death": 8276,
+        "assist": 16992,
+        "winRound": 587,
+        "round": 1114
+    },
+    "美杜莎": {
+        "tower_destroy": 34,
+        "farm": 15098,
+        "money": 2039024,
+        "kill": 689,
+        "death": 1275,
+        "assist": 2791,
+        "winRound": 76,
+        "round": 157
+    },
+    "赤瞳": {
+        "tower_destroy": 316,
+        "farm": 61118,
+        "money": 7798813,
+        "kill": 6355,
+        "death": 4580,
+        "assist": 5310,
+        "winRound": 265,
+        "round": 518
+    },
+    "张飞": {
+        "tower_destroy": 124,
+        "farm": 25785,
+        "money": 4535371,
+        "kill": 2241,
+        "death": 2528,
+        "assist": 5613,
+        "winRound": 184,
+        "round": 357
+    },
+    "间桐樱": {
+        "tower_destroy": 131,
+        "farm": 76553,
+        "money": 7530914,
+        "kill": 3200,
+        "death": 4344,
+        "assist": 7917,
+        "winRound": 276,
+        "round": 539
+    },
+    "康娜": {
+        "tower_destroy": 129,
+        "farm": 56158,
+        "money": 6233695,
+        "kill": 3186,
+        "death": 3069,
+        "assist": 6300,
+        "winRound": 209,
+        "round": 428
+    },
+    "黑羽快斗": {
+        "tower_destroy": 2930,
+        "farm": 334308,
+        "money": 28639690,
+        "kill": 17565,
+        "death": 12676,
+        "assist": 19409,
+        "winRound": 881,
+        "round": 1658
+    },
+    "阿尔冯斯": {
+        "tower_destroy": 98,
+        "farm": 41613,
+        "money": 4199405,
+        "kill": 2208,
+        "death": 2423,
+        "assist": 3380,
+        "winRound": 143,
+        "round": 286
+    },
+    "蓬莱山辉夜": {
+        "tower_destroy": 1161,
+        "farm": 384298,
+        "money": 44154477,
+        "kill": 22014,
+        "death": 23197,
+        "assist": 53747,
+        "winRound": 1854,
+        "round": 3134
+    },
+    "雪菜": {
+        "tower_destroy": 45,
+        "farm": 9580,
+        "money": 2015768,
+        "kill": 579,
+        "death": 1265,
+        "assist": 2973,
+        "winRound": 90,
+        "round": 180
+    },
+    "亚瑟王": {
+        "tower_destroy": 468,
+        "farm": 80390,
+        "money": 9664051,
+        "kill": 4702,
+        "death": 5037,
+        "assist": 9462,
+        "winRound": 349,
+        "round": 706
+    },
+    "珂朵莉": {
+        "tower_destroy": 493,
+        "farm": 41526,
+        "money": 4035387,
+        "kill": 2031,
+        "death": 2508,
+        "assist": 1902,
+        "winRound": 135,
+        "round": 265
+    },
+    "夜斗": {
+        "tower_destroy": 944,
+        "farm": 210304,
+        "money": 20870940,
+        "kill": 12364,
+        "death": 10553,
+        "assist": 15595,
+        "winRound": 703,
+        "round": 1359
+    },
+    "诺瓦露": {
+        "tower_destroy": 223,
+        "farm": 28215,
+        "money": 3763566,
+        "kill": 2847,
+        "death": 2258,
+        "assist": 2728,
+        "winRound": 140,
+        "round": 255
+    },
+    "缇娜": {
+        "tower_destroy": 561,
+        "farm": 105928,
+        "money": 13570255,
+        "kill": 6873,
+        "death": 6876,
+        "assist": 11665,
+        "winRound": 479,
+        "round": 984
+    },
+    "黑": {
+        "tower_destroy": 1131,
+        "farm": 194505,
+        "money": 23636607,
+        "kill": 17423,
+        "death": 12622,
+        "assist": 11014,
+        "winRound": 769,
+        "round": 1449
+    },
+    "巴麻美": {
+        "tower_destroy": 1205,
+        "farm": 89048,
+        "money": 7323092,
+        "kill": 4243,
+        "death": 4021,
+        "assist": 4783,
+        "winRound": 226,
+        "round": 459
+    },
+    "伊卡洛斯": {
+        "tower_destroy": 823,
+        "farm": 70571,
+        "money": 5901387,
+        "kill": 3440,
+        "death": 2970,
+        "assist": 4025,
+        "winRound": 196,
+        "round": 361
+    },
+    "尤吉欧": {
+        "tower_destroy": 304,
+        "farm": 59786,
+        "money": 11844548,
+        "kill": 3830,
+        "death": 6807,
+        "assist": 19507,
+        "winRound": 488,
+        "round": 938
+    },
+    "夏洛特": {
+        "tower_destroy": 61,
+        "farm": 11824,
+        "money": 1993779,
+        "kill": 1276,
+        "death": 1272,
+        "assist": 2162,
+        "winRound": 62,
+        "round": 142
+    },
+    "纳兹": {
+        "tower_destroy": 132,
+        "farm": 28944,
+        "money": 4617538,
+        "kill": 3933,
+        "death": 3399,
+        "assist": 3153,
+        "winRound": 159,
+        "round": 339
+    },
+    "牧师娃": {
+        "tower_destroy": 34,
+        "farm": 2891,
+        "money": 1551936,
+        "kill": 459,
+        "death": 740,
+        "assist": 3244,
+        "winRound": 72,
+        "round": 139
+    },
+    "蛇叔": {
+        "tower_destroy": 266,
+        "farm": 47688,
+        "money": 7888006,
+        "kill": 6859,
+        "death": 5183,
+        "assist": 4598,
+        "winRound": 253,
+        "round": 542
+    },
+    "沢田纲吉": {
+        "tower_destroy": 107,
+        "farm": 35283,
+        "money": 4535952,
+        "kill": 3543,
+        "death": 3007,
+        "assist": 3096,
+        "winRound": 149,
+        "round": 326
+    },
+    "神裂火织": {
+        "tower_destroy": 194,
+        "farm": 41331,
+        "money": 4489496,
+        "kill": 2265,
+        "death": 2786,
+        "assist": 4131,
+        "winRound": 150,
+        "round": 310
+    },
+    "君莫笑": {
+        "tower_destroy": 188,
+        "farm": 28833,
+        "money": 3680321,
+        "kill": 1603,
+        "death": 2536,
+        "assist": 4093,
+        "winRound": 136,
+        "round": 282
+    },
+    "梅普露": {
+        "tower_destroy": 21,
+        "farm": 17319,
+        "money": 4921170,
+        "kill": 623,
+        "death": 2939,
+        "assist": 9452,
+        "winRound": 230,
+        "round": 425
+    },
+    "冰之狙击手": {
+        "tower_destroy": 670,
+        "farm": 95959,
+        "money": 9862828,
+        "kill": 4722,
+        "death": 5344,
+        "assist": 9789,
+        "winRound": 320,
+        "round": 703
+    },
+    "樱满集": {
+        "tower_destroy": 350,
+        "farm": 76449,
+        "money": 16463490,
+        "kill": 5655,
+        "death": 10502,
+        "assist": 23667,
+        "winRound": 667,
+        "round": 1390
+    },
+    "一方通行": {
+        "tower_destroy": 740,
+        "farm": 85457,
+        "money": 6485636,
+        "kill": 3581,
+        "death": 3220,
+        "assist": 3936,
+        "winRound": 174,
+        "round": 385
+    },
+    "喜羊羊": {
+        "tower_destroy": 79,
+        "farm": 16303,
+        "money": 3351024,
+        "kill": 1813,
+        "death": 1984,
+        "assist": 4395,
+        "winRound": 139,
+        "round": 256
+    },
+    "李小狼": {
+        "tower_destroy": 265,
+        "farm": 73891,
+        "money": 5744972,
+        "kill": 3928,
+        "death": 3064,
+        "assist": 2471,
+        "winRound": 166,
+        "round": 335
+    },
+    "巴依老爷": {
+        "tower_destroy": 202,
+        "farm": 58352,
+        "money": 14514215,
+        "kill": 5697,
+        "death": 8468,
+        "assist": 22947,
+        "winRound": 554,
+        "round": 1146
+    },
+    "蝴蝶忍": {
+        "tower_destroy": 174,
+        "farm": 31108,
+        "money": 3562364,
+        "kill": 2461,
+        "death": 1797,
+        "assist": 2485,
+        "winRound": 113,
+        "round": 226
+    },
+    "司波深雪": {
+        "tower_destroy": 41,
+        "farm": 11701,
+        "money": 1738251,
+        "kill": 614,
+        "death": 1101,
+        "assist": 2312,
+        "winRound": 70,
+        "round": 142
+    },
+    "五更琉璃": {
+        "tower_destroy": 85,
+        "farm": 40219,
+        "money": 3317481,
+        "kill": 1627,
+        "death": 1471,
+        "assist": 2086,
+        "winRound": 102,
+        "round": 212
+    },
+    "佩姬": {
+        "tower_destroy": 82,
+        "farm": 22087,
+        "money": 2829450,
+        "kill": 2148,
+        "death": 1806,
+        "assist": 1775,
+        "winRound": 82,
+        "round": 210
+    },
+    "妖梦": {
+        "tower_destroy": 729,
+        "farm": 122789,
+        "money": 16458575,
+        "kill": 10970,
+        "death": 10706,
+        "assist": 12345,
+        "winRound": 575,
+        "round": 1186
+    },
+    "胡子船长": {
+        "tower_destroy": 48,
+        "farm": 13007,
+        "money": 2247122,
+        "kill": 740,
+        "death": 1304,
+        "assist": 3429,
+        "winRound": 88,
+        "round": 174
+    },
+    "佐罗": {
+        "tower_destroy": 342,
+        "farm": 52377,
+        "money": 6406540,
+        "kill": 3335,
+        "death": 3595,
+        "assist": 5791,
+        "winRound": 242,
+        "round": 455
+    },
+    "晓美焰": {
+        "tower_destroy": 254,
+        "farm": 33373,
+        "money": 2820733,
+        "kill": 1435,
+        "death": 1472,
+        "assist": 2132,
+        "winRound": 84,
+        "round": 184
+    },
+    "死神": {
+        "tower_destroy": 113,
+        "farm": 24365,
+        "money": 12027599,
+        "kill": 8719,
+        "death": 7086,
+        "assist": 17854,
+        "winRound": 370,
+        "round": 856
+    },
+    "机械神梅普露": {
+        "tower_destroy": 17,
+        "farm": 25166,
+        "money": 3775776,
+        "kill": 811,
+        "death": 2208,
+        "assist": 5744,
+        "winRound": 138,
+        "round": 306
+    },
+    "黑岩射手": {
+        "tower_destroy": 1226,
+        "farm": 122663,
+        "money": 9342927,
+        "kill": 5227,
+        "death": 4794,
+        "assist": 5554,
+        "winRound": 288,
+        "round": 580
+    },
+    "公主": {
+        "tower_destroy": 1065,
+        "farm": 110823,
+        "money": 10314140,
+        "kill": 5887,
+        "death": 6169,
+        "assist": 5579,
+        "winRound": 327,
+        "round": 674
+    },
+    "战士娃": {
+        "tower_destroy": 98,
+        "farm": 15663,
+        "money": 2290651,
+        "kill": 1331,
+        "death": 1549,
+        "assist": 1974,
+        "winRound": 75,
+        "round": 160
+    },
+    "结城友奈": {
+        "tower_destroy": 75,
+        "farm": 15615,
+        "money": 2086610,
+        "kill": 923,
+        "death": 1047,
+        "assist": 2185,
+        "winRound": 83,
+        "round": 153
+    },
+    "爱德华": {
+        "tower_destroy": 55,
+        "farm": 26765,
+        "money": 3175784,
+        "kill": 1013,
+        "death": 1637,
+        "assist": 4045,
+        "winRound": 120,
+        "round": 246
+    },
+    "佐仓杏子": {
+        "tower_destroy": 52,
+        "farm": 18770,
+        "money": 2386839,
+        "kill": 1220,
+        "death": 1629,
+        "assist": 2065,
+        "winRound": 83,
+        "round": 184
+    },
+    "夏娜": {
+        "tower_destroy": 644,
+        "farm": 52525,
+        "money": 4376758,
+        "kill": 2284,
+        "death": 2388,
+        "assist": 2082,
+        "winRound": 146,
+        "round": 294
+    },
+    "奇犽": {
+        "tower_destroy": 67,
+        "farm": 25430,
+        "money": 2685389,
+        "kill": 1720,
+        "death": 1521,
+        "assist": 1691,
+        "winRound": 86,
+        "round": 186
+    },
+    "栗山未来": {
+        "tower_destroy": 150,
+        "farm": 31674,
+        "money": 3906337,
+        "kill": 1691,
+        "death": 2428,
+        "assist": 4123,
+        "winRound": 137,
+        "round": 288
+    },
+    "真红": {
+        "tower_destroy": 109,
+        "farm": 49719,
+        "money": 4733833,
+        "kill": 2512,
+        "death": 2464,
+        "assist": 3887,
+        "winRound": 159,
+        "round": 324
+    },
+    "阿尔泰尔": {
+        "tower_destroy": 414,
+        "farm": 35266,
+        "money": 2725493,
+        "kill": 1247,
+        "death": 1559,
+        "assist": 1743,
+        "winRound": 84,
+        "round": 166
+    },
+    "不知火舞": {
+        "tower_destroy": 53,
+        "farm": 14974,
+        "money": 1504184,
+        "kill": 805,
+        "death": 713,
+        "assist": 1214,
+        "winRound": 50,
+        "round": 103
+    },
+    "空条承太郎": {
+        "tower_destroy": 507,
+        "farm": 62025,
+        "money": 7773936,
+        "kill": 4363,
+        "death": 4976,
+        "assist": 7328,
+        "winRound": 304,
+        "round": 583
+    },
+    "八云紫": {
+        "tower_destroy": 18,
+        "farm": 9653,
+        "money": 905285,
+        "kill": 366,
+        "death": 438,
+        "assist": 814,
+        "winRound": 33,
+        "round": 67
+    },
+    "大傻": {
+        "tower_destroy": 324,
+        "farm": 44569,
+        "money": 3972324,
+        "kill": 2398,
+        "death": 1993,
+        "assist": 3036,
+        "winRound": 128,
+        "round": 246
+    },
+    "艾露莎": {
+        "tower_destroy": 143,
+        "farm": 20240,
+        "money": 2135522,
+        "kill": 1387,
+        "death": 1327,
+        "assist": 1270,
+        "winRound": 69,
+        "round": 138
+    },
+    "炎魔": {
+        "tower_destroy": 60,
+        "farm": 15259,
+        "money": 1716149,
+        "kill": 1032,
+        "death": 1208,
+        "assist": 1299,
+        "winRound": 52,
+        "round": 125
+    },
+    "八神疾风": {
+        "tower_destroy": 363,
+        "farm": 149806,
+        "money": 11586303,
+        "kill": 5345,
+        "death": 5428,
+        "assist": 8690,
+        "winRound": 370,
+        "round": 750
+    },
+    "雾雨魔理沙": {
+        "tower_destroy": 65,
+        "farm": 25401,
+        "money": 3045970,
+        "kill": 1721,
+        "death": 1730,
+        "assist": 2745,
+        "winRound": 97,
+        "round": 217
+    },
+    "青丘国主": {
+        "tower_destroy": 218,
+        "farm": 44351,
+        "money": 6256331,
+        "kill": 4295,
+        "death": 4220,
+        "assist": 4030,
+        "winRound": 212,
+        "round": 459
+    },
+    "两仪式": {
+        "tower_destroy": 427,
+        "farm": 94345,
+        "money": 9572926,
+        "kill": 7077,
+        "death": 4689,
+        "assist": 4003,
+        "winRound": 299,
+        "round": 580
+    },
+    "水银灯": {
+        "tower_destroy": 486,
+        "farm": 37096,
+        "money": 2777015,
+        "kill": 1174,
+        "death": 1289,
+        "assist": 1567,
+        "winRound": 95,
+        "round": 181
+    },
+    "克子": {
+        "tower_destroy": 29,
+        "farm": 7925,
+        "money": 1451340,
+        "kill": 469,
+        "death": 879,
+        "assist": 2041,
+        "winRound": 50,
+        "round": 112
+    },
+    "迪奥·布兰度": {
+        "tower_destroy": 257,
+        "farm": 54999,
+        "money": 5204101,
+        "kill": 2887,
+        "death": 2962,
+        "assist": 4288,
+        "winRound": 175,
+        "round": 352
+    },
+    "楪祈": {
+        "tower_destroy": 635,
+        "farm": 63968,
+        "money": 5144292,
+        "kill": 2796,
+        "death": 2925,
+        "assist": 3401,
+        "winRound": 153,
+        "round": 330
+    },
+    "洛克李": {
+        "tower_destroy": 11,
+        "farm": 2366,
+        "money": 460490,
+        "kill": 209,
+        "death": 414,
+        "assist": 553,
+        "winRound": 12,
+        "round": 38
+    },
+    "无名": {
+        "tower_destroy": 150,
+        "farm": 21502,
+        "money": 2110906,
+        "kill": 1397,
+        "death": 1194,
+        "assist": 1269,
+        "winRound": 70,
+        "round": 151
+    },
+    "左二少": {
+        "tower_destroy": 901,
+        "farm": 140988,
+        "money": 13844808,
+        "kill": 7095,
+        "death": 6665,
+        "assist": 11904,
+        "winRound": 459,
+        "round": 869
+    },
+    "强袭自由": {
+        "tower_destroy": 524,
+        "farm": 83021,
+        "money": 8603842,
+        "kill": 4790,
+        "death": 4501,
+        "assist": 7688,
+        "winRound": 324,
+        "round": 589
+    },
+    "御坂美琴": {
+        "tower_destroy": 47,
+        "farm": 33907,
+        "money": 4035880,
+        "kill": 2843,
+        "death": 2713,
+        "assist": 4065,
+        "winRound": 135,
+        "round": 285
+    },
+    "梦梦": {
+        "tower_destroy": 48,
+        "farm": 32006,
+        "money": 3717612,
+        "kill": 1594,
+        "death": 2208,
+        "assist": 3731,
+        "winRound": 127,
+        "round": 272
+    },
+    "金色之暗": {
+        "tower_destroy": 136,
+        "farm": 24193,
+        "money": 2734607,
+        "kill": 1873,
+        "death": 1697,
+        "assist": 1510,
+        "winRound": 79,
+        "round": 185
+    },
+    "盗贼娃": {
+        "tower_destroy": 39,
+        "farm": 3511,
+        "money": 972314,
+        "kill": 693,
+        "death": 760,
+        "assist": 638,
+        "winRound": 33,
+        "round": 83
+    },
+    "鲁路修": {
+        "tower_destroy": 472,
+        "farm": 44398,
+        "money": 4238469,
+        "kill": 2246,
+        "death": 1870,
+        "assist": 4848,
+        "winRound": 156,
+        "round": 284
+    },
+    "爱丽丝": {
+        "tower_destroy": 80,
+        "farm": 15720,
+        "money": 2119073,
+        "kill": 924,
+        "death": 1413,
+        "assist": 2091,
+        "winRound": 82,
+        "round": 164
+    },
+    "姬丝秀忒": {
+        "tower_destroy": 508,
+        "farm": 56165,
+        "money": 9458733,
+        "kill": 4151,
+        "death": 4989,
+        "assist": 11066,
+        "winRound": 351,
+        "round": 710
+    },
+    "常宣灵": {
+        "tower_destroy": 32,
+        "farm": 10428,
+        "money": 1295404,
+        "kill": 783,
+        "death": 862,
+        "assist": 1022,
+        "winRound": 46,
+        "round": 94
+    },
+    "妮姆芙": {
+        "tower_destroy": 14,
+        "farm": 1840,
+        "money": 1446053,
+        "kill": 92,
+        "death": 784,
+        "assist": 3677,
+        "winRound": 66,
+        "round": 134
+    },
+    "乔鲁诺·乔巴纳": {
+        "tower_destroy": 268,
+        "farm": 28598,
+        "money": 2823150,
+        "kill": 1546,
+        "death": 1736,
+        "assist": 1643,
+        "winRound": 88,
+        "round": 194
+    },
+    "高町奈叶": {
+        "tower_destroy": 78,
+        "farm": 26927,
+        "money": 2694795,
+        "kill": 1391,
+        "death": 1479,
+        "assist": 2170,
+        "winRound": 86,
+        "round": 186
+    },
+    "小一": {
+        "tower_destroy": 441,
+        "farm": 78153,
+        "money": 7702712,
+        "kill": 4310,
+        "death": 4615,
+        "assist": 5752,
+        "winRound": 265,
+        "round": 532
+    },
+    "哈桑": {
+        "tower_destroy": 167,
+        "farm": 29640,
+        "money": 3863112,
+        "kill": 2570,
+        "death": 1646,
+        "assist": 2236,
+        "winRound": 134,
+        "round": 254
+    },
+    "白井黑子": {
+        "tower_destroy": 33,
+        "farm": 9548,
+        "money": 2917077,
+        "kill": 1475,
+        "death": 2188,
+        "assist": 3960,
+        "winRound": 114,
+        "round": 247
+    },
+    "隐居者": {
+        "tower_destroy": 59,
+        "farm": 6508,
+        "money": 2387196,
+        "kill": 487,
+        "death": 1398,
+        "assist": 4664,
+        "winRound": 111,
+        "round": 209
+    },
+    "曹焱兵": {
+        "tower_destroy": 141,
+        "farm": 19388,
+        "money": 2083112,
+        "kill": 1015,
+        "death": 1123,
+        "assist": 1740,
+        "winRound": 80,
+        "round": 141
+    },
+    "凸守早苗": {
+        "tower_destroy": 69,
+        "farm": 22214,
+        "money": 3193105,
+        "kill": 2131,
+        "death": 1964,
+        "assist": 3119,
+        "winRound": 102,
+        "round": 230
+    },
+    "美游": {
+        "tower_destroy": 190,
+        "farm": 47251,
+        "money": 5499781,
+        "kill": 2880,
+        "death": 3308,
+        "assist": 4849,
+        "winRound": 172,
+        "round": 415
+    },
+    "吕布": {
+        "tower_destroy": 206,
+        "farm": 14493,
+        "money": 1245470,
+        "kill": 525,
+        "death": 738,
+        "assist": 520,
+        "winRound": 43,
+        "round": 83
+    },
+    "平和岛静雄": {
+        "tower_destroy": 98,
+        "farm": 20544,
+        "money": 3213494,
+        "kill": 1270,
+        "death": 1602,
+        "assist": 3960,
+        "winRound": 136,
+        "round": 243
+    },
+    "远坂凛": {
+        "tower_destroy": 51,
+        "farm": 15398,
+        "money": 1550336,
+        "kill": 954,
+        "death": 844,
+        "assist": 1075,
+        "winRound": 55,
+        "round": 114
+    },
+    "土间埋": {
+        "tower_destroy": 224,
+        "farm": 28764,
+        "money": 2338143,
+        "kill": 1339,
+        "death": 1129,
+        "assist": 1549,
+        "winRound": 82,
+        "round": 146
+    },
+    "波风水门": {
+        "tower_destroy": 160,
+        "farm": 29012,
+        "money": 3398765,
+        "kill": 2014,
+        "death": 2102,
+        "assist": 2002,
+        "winRound": 120,
+        "round": 233
+    },
+    "黑贞德": {
+        "tower_destroy": 211,
+        "farm": 25855,
+        "money": 2650501,
+        "kill": 1543,
+        "death": 1777,
+        "assist": 1259,
+        "winRound": 86,
+        "round": 185
+    },
+    "库·丘林": {
+        "tower_destroy": 111,
+        "farm": 18788,
+        "money": 2542956,
+        "kill": 1050,
+        "death": 1760,
+        "assist": 3007,
+        "winRound": 105,
+        "round": 199
+    },
+    "术士娃": {
+        "tower_destroy": 13,
+        "farm": 3948,
+        "money": 828715,
+        "kill": 517,
+        "death": 649,
+        "assist": 684,
+        "winRound": 25,
+        "round": 68
+    },
+    "香风智乃": {
+        "tower_destroy": 6,
+        "farm": 5531,
+        "money": 773783,
+        "kill": 318,
+        "death": 531,
+        "assist": 848,
+        "winRound": 24,
+        "round": 62
+    },
+    "莉法": {
+        "tower_destroy": 103,
+        "farm": 29406,
+        "money": 3926780,
+        "kill": 1808,
+        "death": 2462,
+        "assist": 3983,
+        "winRound": 125,
+        "round": 300
+    },
+    "唐僧": {
+        "tower_destroy": 25,
+        "farm": 5425,
+        "money": 1519755,
+        "kill": 330,
+        "death": 1090,
+        "assist": 2673,
+        "winRound": 62,
+        "round": 139
+    },
+    "迪斯卓尔": {
+        "tower_destroy": 653,
+        "farm": 61364,
+        "money": 5110466,
+        "kill": 3191,
+        "death": 2310,
+        "assist": 3323,
+        "winRound": 161,
+        "round": 297
+    },
+    "达克尼斯": {
+        "tower_destroy": 90,
+        "farm": 31411,
+        "money": 4772581,
+        "kill": 2514,
+        "death": 2809,
+        "assist": 4938,
+        "winRound": 175,
+        "round": 359
+    },
+    "赵云": {
+        "tower_destroy": 73,
+        "farm": 18238,
+        "money": 1434166,
+        "kill": 595,
+        "death": 1083,
+        "assist": 1008,
+        "winRound": 39,
+        "round": 102
+    },
+    "月刊重巡": {
+        "tower_destroy": 196,
+        "farm": 19937,
+        "money": 2011721,
+        "kill": 1006,
+        "death": 809,
+        "assist": 2334,
+        "winRound": 73,
+        "round": 132
+    },
+    "美树沙耶加": {
+        "tower_destroy": 133,
+        "farm": 17948,
+        "money": 1803607,
+        "kill": 1113,
+        "death": 1001,
+        "assist": 893,
+        "winRound": 51,
+        "round": 108
+    },
+    "歌姬": {
+        "tower_destroy": 28,
+        "farm": 2957,
+        "money": 1620910,
+        "kill": 118,
+        "death": 1021,
+        "assist": 3095,
+        "winRound": 84,
+        "round": 168
+    },
+    "狂暴补师": {
+        "tower_destroy": 377,
+        "farm": 50663,
+        "money": 6298956,
+        "kill": 4761,
+        "death": 3630,
+        "assist": 3311,
+        "winRound": 213,
+        "round": 407
+    },
+    "蕾西亚": {
+        "tower_destroy": 35,
+        "farm": 3270,
+        "money": 1347904,
+        "kill": 245,
+        "death": 796,
+        "assist": 2295,
+        "winRound": 67,
+        "round": 126
+    },
+    "立华奏": {
+        "tower_destroy": 170,
+        "farm": 20097,
+        "money": 2021641,
+        "kill": 937,
+        "death": 1082,
+        "assist": 1252,
+        "winRound": 71,
+        "round": 132
+    },
+    "桂木桂马": {
+        "tower_destroy": 47,
+        "farm": 17297,
+        "money": 3053213,
+        "kill": 1559,
+        "death": 1872,
+        "assist": 5089,
+        "winRound": 100,
+        "round": 234
+    },
+    "火拳·S": {
+        "tower_destroy": 177,
+        "farm": 61608,
+        "money": 6762471,
+        "kill": 3602,
+        "death": 4013,
+        "assist": 5962,
+        "winRound": 234,
+        "round": 474
+    },
+    "卡殿下": {
+        "tower_destroy": 50,
+        "farm": 17339,
+        "money": 2444123,
+        "kill": 1437,
+        "death": 1548,
+        "assist": 3021,
+        "winRound": 75,
+        "round": 176
+    },
+    "阿库娅": {
+        "tower_destroy": 132,
+        "farm": 18348,
+        "money": 4381242,
+        "kill": 758,
+        "death": 2192,
+        "assist": 8284,
+        "winRound": 190,
+        "round": 323
+    },
+    "格雷": {
+        "tower_destroy": 46,
+        "farm": 8520,
+        "money": 1407330,
+        "kill": 334,
+        "death": 881,
+        "assist": 1930,
+        "winRound": 57,
+        "round": 114
+    },
+    "司波达也": {
+        "tower_destroy": 389,
+        "farm": 40734,
+        "money": 3429153,
+        "kill": 2087,
+        "death": 1494,
+        "assist": 2558,
+        "winRound": 117,
+        "round": 206
+    },
+    "黑雪姬": {
+        "tower_destroy": 106,
+        "farm": 17858,
+        "money": 2910038,
+        "kill": 2175,
+        "death": 2176,
+        "assist": 1972,
+        "winRound": 101,
+        "round": 219
+    },
+    "埼玉": {
+        "tower_destroy": 245,
+        "farm": 49673,
+        "money": 5928477,
+        "kill": 3322,
+        "death": 3916,
+        "assist": 4700,
+        "winRound": 205,
+        "round": 425
+    },
+    "牧濑红莉栖": {
+        "tower_destroy": 42,
+        "farm": 14325,
+        "money": 2073596,
+        "kill": 1009,
+        "death": 1340,
+        "assist": 2644,
+        "winRound": 76,
+        "round": 162
+    },
+    "涅普顿": {
+        "tower_destroy": 343,
+        "farm": 60581,
+        "money": 7800534,
+        "kill": 6051,
+        "death": 4591,
+        "assist": 4904,
+        "winRound": 262,
+        "round": 522
+    },
+    "尼禄": {
+        "tower_destroy": 84,
+        "farm": 15682,
+        "money": 2423769,
+        "kill": 838,
+        "death": 1342,
+        "assist": 2783,
+        "winRound": 74,
+        "round": 173
+    },
+    "柏崎星奈": {
+        "tower_destroy": 11,
+        "farm": 3103,
+        "money": 508984,
+        "kill": 212,
+        "death": 304,
+        "assist": 613,
+        "winRound": 17,
+        "round": 40
+    },
+    "射命丸文": {
+        "tower_destroy": 43,
+        "farm": 13288,
+        "money": 1619436,
+        "kill": 1087,
+        "death": 1102,
+        "assist": 1318,
+        "winRound": 55,
+        "round": 113
+    },
+    "貂蝉": {
+        "tower_destroy": 22,
+        "farm": 9133,
+        "money": 979790,
+        "kill": 703,
+        "death": 590,
+        "assist": 739,
+        "winRound": 37,
+        "round": 71
+    },
+    "常昊灵": {
+        "tower_destroy": 89,
+        "farm": 16550,
+        "money": 1789023,
+        "kill": 1189,
+        "death": 1180,
+        "assist": 1176,
+        "winRound": 52,
+        "round": 119
+    },
+    "草帽小子": {
+        "tower_destroy": 204,
+        "farm": 45231,
+        "money": 4709430,
+        "kill": 2177,
+        "death": 2303,
+        "assist": 4779,
+        "winRound": 167,
+        "round": 329
+    },
+    "纏流子": {
+        "tower_destroy": 52,
+        "farm": 14828,
+        "money": 1090328,
+        "kill": 652,
+        "death": 642,
+        "assist": 592,
+        "winRound": 34,
+        "round": 68
+    },
+    "塞巴斯蒂安": {
+        "tower_destroy": 19,
+        "farm": 5862,
+        "money": 797639,
+        "kill": 325,
+        "death": 580,
+        "assist": 847,
+        "winRound": 29,
+        "round": 61
+    },
+    "雅典娜": {
+        "tower_destroy": 11,
+        "farm": 1401,
+        "money": 441213,
+        "kill": 42,
+        "death": 236,
+        "assist": 791,
+        "winRound": 26,
+        "round": 44
+    },
+    "法师": {
+        "tower_destroy": 11,
+        "farm": 4214,
+        "money": 1063500,
+        "kill": 760,
+        "death": 760,
+        "assist": 1024,
+        "winRound": 40,
+        "round": 85
+    },
+    "爱丽丝·玛格特罗依德": {
+        "tower_destroy": 56,
+        "farm": 23773,
+        "money": 2426905,
+        "kill": 1080,
+        "death": 1287,
+        "assist": 2130,
+        "winRound": 69,
+        "round": 160
+    },
+    "琉璃": {
+        "tower_destroy": 130,
+        "farm": 13393,
+        "money": 1091447,
+        "kill": 558,
+        "death": 619,
+        "assist": 697,
+        "winRound": 32,
+        "round": 73
+    },
+    "吉尔加美什": {
+        "tower_destroy": 689,
+        "farm": 55861,
+        "money": 4973888,
+        "kill": 2436,
+        "death": 2326,
+        "assist": 3764,
+        "winRound": 170,
+        "round": 298
+    },
+    "阿斯托尔福": {
+        "tower_destroy": 52,
+        "farm": 7030,
+        "money": 1276970,
+        "kill": 304,
+        "death": 722,
+        "assist": 1784,
+        "winRound": 55,
+        "round": 106
+    },
+    "周防尊": {
+        "tower_destroy": 70,
+        "farm": 14658,
+        "money": 3675649,
+        "kill": 1477,
+        "death": 1932,
+        "assist": 6791,
+        "winRound": 163,
+        "round": 286
+    },
+    "鹿目圆香": {
+        "tower_destroy": 376,
+        "farm": 42235,
+        "money": 3736836,
+        "kill": 2246,
+        "death": 1927,
+        "assist": 2883,
+        "winRound": 125,
+        "round": 227
+    },
+    "夜夜": {
+        "tower_destroy": 84,
+        "farm": 12621,
+        "money": 2179525,
+        "kill": 1018,
+        "death": 1192,
+        "assist": 2320,
+        "winRound": 86,
+        "round": 171
+    },
+    "赫拉克勒斯": {
+        "tower_destroy": 166,
+        "farm": 15224,
+        "money": 1546422,
+        "kill": 855,
+        "death": 777,
+        "assist": 837,
+        "winRound": 49,
+        "round": 94
+    },
+    "菲特": {
+        "tower_destroy": 44,
+        "farm": 14315,
+        "money": 1714658,
+        "kill": 1204,
+        "death": 1051,
+        "assist": 1247,
+        "winRound": 56,
+        "round": 117
+    },
+    "孙悟空": {
+        "tower_destroy": 304,
+        "farm": 17413,
+        "money": 1830499,
+        "kill": 841,
+        "death": 1185,
+        "assist": 854,
+        "winRound": 60,
+        "round": 131
+    },
+    "白鬼院凛凛蝶": {
+        "tower_destroy": 108,
+        "farm": 12791,
+        "money": 2007921,
+        "kill": 919,
+        "death": 1278,
+        "assist": 2346,
+        "winRound": 79,
+        "round": 158
+    },
+    "神目黑刀": {
+        "tower_destroy": 63,
+        "farm": 10079,
+        "money": 1177888,
+        "kill": 894,
+        "death": 782,
+        "assist": 711,
+        "winRound": 38,
+        "round": 78
+    },
+    "沙耶": {
+        "tower_destroy": 25,
+        "farm": 15184,
+        "money": 1891170,
+        "kill": 971,
+        "death": 1042,
+        "assist": 2001,
+        "winRound": 55,
+        "round": 135
+    },
+    "记忆金属": {
+        "tower_destroy": 10,
+        "farm": 3983,
+        "money": 660583,
+        "kill": 212,
+        "death": 444,
+        "assist": 827,
+        "winRound": 23,
+        "round": 54
+    },
+    "天草四郎时贞": {
+        "tower_destroy": 409,
+        "farm": 45267,
+        "money": 4410324,
+        "kill": 2238,
+        "death": 2176,
+        "assist": 2237,
+        "winRound": 133,
+        "round": 274
+    },
+    "空": {
+        "tower_destroy": 21,
+        "farm": 2458,
+        "money": 891299,
+        "kill": 199,
+        "death": 512,
+        "assist": 1577,
+        "winRound": 35,
+        "round": 83
+    },
+    "白": {
+        "tower_destroy": 510,
+        "farm": 45505,
+        "money": 3706583,
+        "kill": 2100,
+        "death": 1920,
+        "assist": 3006,
+        "winRound": 127,
+        "round": 233
+    },
+    "潘多拉": {
+        "tower_destroy": 22,
+        "farm": 12029,
+        "money": 1233945,
+        "kill": 348,
+        "death": 667,
+        "assist": 1426,
+        "winRound": 41,
+        "round": 96
+    },
+    "白贞德": {
+        "tower_destroy": 58,
+        "farm": 10554,
+        "money": 2220695,
+        "kill": 510,
+        "death": 1184,
+        "assist": 3712,
+        "winRound": 93,
+        "round": 188
+    },
+    "蕾米莉亚": {
+        "tower_destroy": 30,
+        "farm": 12147,
+        "money": 1563411,
+        "kill": 1050,
+        "death": 891,
+        "assist": 1097,
+        "winRound": 60,
+        "round": 114
+    },
+    "安兹·乌尔·恭": {
+        "tower_destroy": 124,
+        "farm": 10254,
+        "money": 1454503,
+        "kill": 591,
+        "death": 1055,
+        "assist": 1659,
+        "winRound": 48,
+        "round": 123
+    },
+    "玉藻前": {
+        "tower_destroy": 20,
+        "farm": 4694,
+        "money": 857077,
+        "kill": 468,
+        "death": 556,
+        "assist": 909,
+        "winRound": 32,
+        "round": 75
+    },
+    "齐天小剩": {
+        "tower_destroy": 19,
+        "farm": 7730,
+        "money": 764574,
+        "kill": 360,
+        "death": 485,
+        "assist": 646,
+        "winRound": 22,
+        "round": 58
+    },
+    "西行寺幽幽子": {
+        "tower_destroy": 36,
+        "farm": 13872,
+        "money": 1543365,
+        "kill": 785,
+        "death": 954,
+        "assist": 1504,
+        "winRound": 60,
+        "round": 113
+    },
+    "喔": {
+        "tower_destroy": 486,
+        "farm": 46538,
+        "money": 3902869,
+        "kill": 2577,
+        "death": 1967,
+        "assist": 2539,
+        "winRound": 117,
+        "round": 220
+    },
+    "舰队统帅": {
+        "tower_destroy": 16,
+        "farm": 5230,
+        "money": 652558,
+        "kill": 407,
+        "death": 459,
+        "assist": 459,
+        "winRound": 18,
+        "round": 48
+    },
+    "梅比斯": {
+        "tower_destroy": 34,
+        "farm": 18002,
+        "money": 1930552,
+        "kill": 1199,
+        "death": 1088,
+        "assist": 1733,
+        "winRound": 68,
+        "round": 136
+    },
+    "格蕾": {
+        "tower_destroy": 134,
+        "farm": 29720,
+        "money": 3502475,
+        "kill": 2070,
+        "death": 1954,
+        "assist": 3149,
+        "winRound": 126,
+        "round": 253
+    },
+    "白岩射手": {
+        "tower_destroy": 172,
+        "farm": 35783,
+        "money": 3232006,
+        "kill": 2088,
+        "death": 1527,
+        "assist": 2122,
+        "winRound": 98,
+        "round": 193
+    },
+    "雅儿贝德": {
+        "tower_destroy": 48,
+        "farm": 7541,
+        "money": 1459305,
+        "kill": 413,
+        "death": 878,
+        "assist": 1936,
+        "winRound": 52,
+        "round": 124
+    },
+    "骑士娃": {
+        "tower_destroy": 30,
+        "farm": 3112,
+        "money": 916455,
+        "kill": 395,
+        "death": 468,
+        "assist": 1455,
+        "winRound": 37,
+        "round": 74
+    },
+    "美狄亚": {
+        "tower_destroy": 40,
+        "farm": 14128,
+        "money": 1504811,
+        "kill": 965,
+        "death": 1046,
+        "assist": 1044,
+        "winRound": 41,
+        "round": 99
+    },
+    "爱蜜莉雅": {
+        "tower_destroy": 15,
+        "farm": 7769,
+        "money": 971744,
+        "kill": 497,
+        "death": 548,
+        "assist": 971,
+        "winRound": 34,
+        "round": 73
+    },
+    "伍六七·柒": {
+        "tower_destroy": 39,
+        "farm": 11595,
+        "money": 1287659,
+        "kill": 929,
+        "death": 679,
+        "assist": 1031,
+        "winRound": 40,
+        "round": 82
+    },
+    "环彩羽": {
+        "tower_destroy": 105,
+        "farm": 11366,
+        "money": 915722,
+        "kill": 569,
+        "death": 452,
+        "assist": 545,
+        "winRound": 32,
+        "round": 58
+    },
+    "坂田银时": {
+        "tower_destroy": 193,
+        "farm": 20244,
+        "money": 2792902,
+        "kill": 1664,
+        "death": 1736,
+        "assist": 2325,
+        "winRound": 98,
+        "round": 210
+    },
+    "我受罗": {
+        "tower_destroy": 19,
+        "farm": 5906,
+        "money": 948043,
+        "kill": 429,
+        "death": 662,
+        "assist": 962,
+        "winRound": 29,
+        "round": 78
+    },
+    "无头骑士": {
+        "tower_destroy": 16,
+        "farm": 2725,
+        "money": 1021897,
+        "kill": 213,
+        "death": 614,
+        "assist": 2150,
+        "winRound": 35,
+        "round": 83
+    },
+    "灵梦": {
+        "tower_destroy": 16,
+        "farm": 9954,
+        "money": 943181,
+        "kill": 506,
+        "death": 638,
+        "assist": 714,
+        "winRound": 38,
+        "round": 67
+    },
+    "伊莎": {
+        "tower_destroy": 123,
+        "farm": 29753,
+        "money": 2516233,
+        "kill": 1504,
+        "death": 1128,
+        "assist": 1507,
+        "winRound": 79,
+        "round": 159
+    },
+    "小鸟游六花": {
+        "tower_destroy": 109,
+        "farm": 22721,
+        "money": 1873513,
+        "kill": 954,
+        "death": 1112,
+        "assist": 1095,
+        "winRound": 59,
+        "round": 117
+    },
+    "伍六七": {
+        "tower_destroy": 24,
+        "farm": 7671,
+        "money": 1025289,
+        "kill": 774,
+        "death": 581,
+        "assist": 939,
+        "winRound": 42,
+        "round": 69
+    },
+    "蒂塔": {
+        "tower_destroy": 19,
+        "farm": 3272,
+        "money": 1152906,
+        "kill": 177,
+        "death": 661,
+        "assist": 2059,
+        "winRound": 48,
+        "round": 103
+    },
+    "秋山澪": {
+        "tower_destroy": 11,
+        "farm": 1028,
+        "money": 757782,
+        "kill": 81,
+        "death": 516,
+        "assist": 1583,
+        "winRound": 42,
+        "round": 73
+    },
+    "伊斯坎达尔": {
+        "tower_destroy": 30,
+        "farm": 5079,
+        "money": 852588,
+        "kill": 311,
+        "death": 526,
+        "assist": 1319,
+        "winRound": 35,
+        "round": 69
+    },
+    "三千院凪": {
+        "tower_destroy": 42,
+        "farm": 4084,
+        "money": 514195,
+        "kill": 197,
+        "death": 301,
+        "assist": 508,
+        "winRound": 23,
+        "round": 36
+    },
+    "蛇血舞姬": {
+        "tower_destroy": 8,
+        "farm": 4374,
+        "money": 727893,
+        "kill": 516,
+        "death": 532,
+        "assist": 495,
+        "winRound": 22,
+        "round": 54
+    },
+    "库奇": {
+        "tower_destroy": 14,
+        "farm": 4409,
+        "money": 852448,
+        "kill": 321,
+        "death": 534,
+        "assist": 1092,
+        "winRound": 38,
+        "round": 73
+    },
+    "风音日和": {
+        "tower_destroy": 14,
+        "farm": 2385,
+        "money": 644407,
+        "kill": 97,
+        "death": 355,
+        "assist": 1255,
+        "winRound": 32,
+        "round": 58
+    },
+    "冯宝宝": {
+        "tower_destroy": 23,
+        "farm": 4428,
+        "money": 569490,
+        "kill": 427,
+        "death": 320,
+        "assist": 323,
+        "winRound": 22,
+        "round": 40
+    },
+    "亚里亚": {
+        "tower_destroy": 247,
+        "farm": 19111,
+        "money": 1735690,
+        "kill": 1001,
+        "death": 903,
+        "assist": 798,
+        "winRound": 55,
+        "round": 110
+    },
+    "莉娜·因巴斯": {
+        "tower_destroy": 26,
+        "farm": 17157,
+        "money": 2045412,
+        "kill": 1389,
+        "death": 1404,
+        "assist": 1301,
+        "winRound": 60,
+        "round": 141
+    },
+    "匹诺曹": {
+        "tower_destroy": 81,
+        "farm": 7003,
+        "money": 564759,
+        "kill": 296,
+        "death": 308,
+        "assist": 363,
+        "winRound": 19,
+        "round": 39
+    },
+    "优克莉伍德": {
+        "tower_destroy": 12,
+        "farm": 1520,
+        "money": 666976,
+        "kill": 114,
+        "death": 400,
+        "assist": 1136,
+        "winRound": 34,
+        "round": 69
+    },
+    "少司命": {
+        "tower_destroy": 27,
+        "farm": 3083,
+        "money": 621874,
+        "kill": 290,
+        "death": 395,
+        "assist": 719,
+        "winRound": 32,
+        "round": 50
+    },
+    "猎人娃": {
+        "tower_destroy": 114,
+        "farm": 11265,
+        "money": 867587,
+        "kill": 460,
+        "death": 457,
+        "assist": 454,
+        "winRound": 27,
+        "round": 59
+    },
+    "幻刺·L·莉莉": {
+        "tower_destroy": 98,
+        "farm": 8170,
+        "money": 951452,
+        "kill": 578,
+        "death": 554,
+        "assist": 467,
+        "winRound": 33,
+        "round": 66
+    },
+    "贞德": {
+        "tower_destroy": "0",
+        "farm": "0",
+        "money": "3850",
+        "kill": "0",
+        "death": "0",
+        "assist": "0",
+        "winRound": 1,
+        "round": 1
+    }
+}

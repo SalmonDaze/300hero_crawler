@@ -1,7 +1,7 @@
 const cheerio = require("cheerio")
 const superagent = require("superagent")
 const checkVaild = require('./checkVaild').checkVaild
-const getData = require('./dataHandle').getData
+const getData = require('./parser').getData
 const eventEmitter = require('./eventEmitter')
 const proxyTest = require('./ippool')
 const pLimit = require('p-limit')
@@ -10,32 +10,32 @@ const flatten = require('array-flatten')
 const fs = require('fs')
 require('superagent-charset')(superagent)
 require('superagent-proxy')(superagent)
+
+const baseUrl = "http://300report.jumpw.com/match.html?id="
+
 const threeHData = async ({ Gid, urlLength, proxy}, cb) => {
     //let proxyList = await proxyTest()
     //console.log(proxyList)
-    const limit = pLimit(5)
-    let baseUrl = "http://300report.jumpw.com/match.html?id="
-    let pool = proxy ? await proxyTest(0) : []
-    let errLength = []
-    let list = []
+    const limit = pLimit(3)
+    //let pool = proxy ? await proxyTest(0) : []
+    const errLength = []
+    const list = []
     let count = 1
     eventEmitter.on("get_page", async() => {
         let tryTime = 0
         const taskQueue = list.map( ( url ) => {
             return limit(() => fetchUrl(url))
         })
-        eventEmitter.on('refreshPool', async () => {
-            
-        })
+
         async function fetchUrl(myurl) {
-            await sleep(200)
+            await sleep(800)
             console.log(`当前并发数为 ${limit.activeCount}`.rainbow)
             let fetchStart = new Date().getTime()
-            let proxyIp = pool[ Math.floor(Math.random() * pool.length) ]
+            //let proxyIp = pool[ Math.floor(Math.random() * pool.length) ]
             try{
                 const result = await superagent
                                     .get(myurl)
-                                    .proxy(proxyIp)
+                                    //.proxy(proxyIp)
                                     .timeout(4000)
                 let $ = cheerio.load(result && result.text, {decodeEntities: false})
                 if (!result || ( result && result.status !== 200 ) || !checkVaild($)) {
@@ -51,14 +51,14 @@ const threeHData = async ({ Gid, urlLength, proxy}, cb) => {
                 return getData($)
 
             } catch(e) { 
-                console.log('请求失败'.red.bgGreen)
-                errLength.push(myurl) 
-                pool = pool.filter( ip => ip !== proxy)
-                eventEmitter.emit('refreshPool')
-                if(pool.length === 0) {
-                    tryTime += 1
-                    pool = await proxyTest(tryTime * 100)
-                }
+                console.log(`请求失败: ${e}`.red.bgGreen)
+                // errLength.push(myurl) 
+                // pool = pool.filter( ip => ip !== proxy)
+                // eventEmitter.emit('refreshPool')
+                // if(pool.length === 0) {
+                //     tryTime += 1
+                //     pool = await proxyTest(tryTime * 100)
+                // }
             }
             
         }
@@ -91,7 +91,7 @@ function sleep(time) {
 function writeToFile($) {
     let data = getData($)
     data = data.map( i => JSON.stringify(i))
-    fs.appendFileSync('data.json', data.concat(['']).join(','), (err) => {
+    fs.appendFileSync('./result/data.json', data.concat(['']).join(','), (err) => {
         if(err) console.log(err)
     })
 }
